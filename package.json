@@ -1,0 +1,23 @@
+{
+  "name": "next-react-svg",
+  "version": "1.0.0",
+  "description": "Transform your svg image to a React component.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremybarbet/next-react-svg.git"
+  },
+  "keywords": [
+    "next",
+    "react",
+    "svg",
+    "component",
+    "image"
+  ],
+  "author": "Jérémy Barbet <jeremgraph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremybarbet/next-react-svg/issues"
+  },
+  "homepage": "https://github.com/jeremybarbet/next-react-svg#readme"
+}
