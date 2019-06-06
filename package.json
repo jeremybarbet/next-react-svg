@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jeremybarbet/next-react-svg/issues"
   },
-  "homepage": "https://github.com/jeremybarbet/next-react-svg#readme"
+  "homepage": "https://github.com/jeremybarbet/next-react-svg#readme",
+  "dependencies": {
+    "svg-react-loader": "0.4.6"
+  }
 }
