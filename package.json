@@ -1,6 +1,6 @@
 {
   "name": "next-react-svg",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Transform your svg image to a React component.",
   "main": "index.js",
   "repository": {
