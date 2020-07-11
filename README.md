@@ -20,6 +20,7 @@ Create a `next.config.js` in your project and pass an `include` to define the sv
 
 ```js
 const withReactSvg = require('next-react-svg')
+const path = require('path')
 
 module.exports = withReactSvg({
   include: path.resolve(__dirname, 'src/assets/svg'),
