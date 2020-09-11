@@ -37,3 +37,11 @@ export default () => (
   <Logo />
 );
 ```
+
+## Typescript
+
+For those using Typescript, make sure to to add the code below into your next-env.d.ts file.
+
+```
+/// <reference types="next-react-svg" />
+```
