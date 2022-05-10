@@ -40,8 +40,20 @@ export default () => (
 
 ## Typescript
 
-For those using Typescript, make sure to to add the code below into your next-env.d.ts file.
+### [Next > 11](https://nextjs.org/docs/basic-features/typescript#existing-projects)
 
+Create a `additional.d.ts` file at the root of your project. Add the following reference:
+
+```ts
+/// <reference types="next-react-svg" />
 ```
+
+Add `additional.d.ts` to the include array of your `tsconfig.json`.
+
+### Next <= 11
+
+Add the reference below into your next-env.d.ts file.
+
+```ts
 /// <reference types="next-react-svg" />
 ```
