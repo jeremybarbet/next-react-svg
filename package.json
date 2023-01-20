@@ -21,7 +21,13 @@
     "url": "https://github.com/jeremybarbet/next-react-svg/issues"
   },
   "homepage": "https://github.com/jeremybarbet/next-react-svg#readme",
+  "scripts": {
+    "format": "prettier --write \"*.{js,d.ts,md}\""
+  },
   "dependencies": {
     "svg-react-loader": "0.4.6"
+  },
+  "devDependencies": {
+    "prettier": "2.8.3"
   }
 }
