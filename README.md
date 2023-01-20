@@ -19,11 +19,12 @@ yarn add next-react-svg -E
 Create a `next.config.js` in your project and pass an `include` to define the svg folder localization.
 
 ```js
-const withReactSvg = require('next-react-svg')
 const path = require('path')
+const withReactSvg = require("next-react-svg")({
+    include: path.resolve(__dirname, "src/assets/svgs"),
+})
 
 module.exports = withReactSvg({
-  include: path.resolve(__dirname, 'src/assets/svg'),
   webpack(config, options) {
     return config
   }
