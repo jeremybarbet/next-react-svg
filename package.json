@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "prettier": "2.8.3"
+  },
+  "resolutions": {
+    "loader-utils": "1.4.2"
   }
 }
